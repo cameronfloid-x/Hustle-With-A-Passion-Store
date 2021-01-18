@@ -27,6 +27,10 @@ nav ul li {
   margin-right: 20px;
 }
 
+nav ul a:hover {
+  color: #ff523b;
+}
+
 a {
   text-decoration: none;
   color: #555;
@@ -114,7 +118,18 @@ img:hover {
 }
 
 .header {
-  background: radial-gradient(#fff, #ffd6d6);
+  background: linear-gradient(#fff, #BF2929);
+  /* background: radial-gradient(rgb(236, 133, 15), #f1f1f1); */
+}
+
+.logo {
+  width: 40%;
+}
+
+.logo.footer {
+  width: 70%;
+  margin-right: 25%;
+  margin-bottom: 25%;
 }
 
 .header .row {
@@ -122,7 +137,7 @@ img:hover {
 }
 
 .btn:hover {
-  background: #563434;
+  background: #34F3B3;
 }
 
 .categories {
@@ -168,7 +183,7 @@ img:hover {
 
 .title::after {
   content: '';
-  background: #ff523b;
+  background: #F5911E;
   width: 80px;
   height: 5px;
   border-radius: 5px;
@@ -191,13 +206,19 @@ img:hover {
 }
 
 .offer {
-  background: radial-gradient(#fff, #ffd6d6);
+  /* background: radial-gradient(#e66465, #9198e5); */
+  background: radial-gradient(#fff, #FF8800);
   margin-top: 80px;
   padding: 30px 0;
 }
 
 .col-2 .offer-img {
+  opacity: 0.85;
   padding: 50px;
+}
+
+.col-2 .offer-img:hover {
+  opacity: 1;
 }
 
 .testimonial {
@@ -224,7 +245,7 @@ img:hover {
 
 .fa-quote-left {
   font-size: 34px;
-  color: #ff523b;
+  color: #F5911E;
 }
 
 .col-3 p {
@@ -278,7 +299,7 @@ img:hover {
   margin-bottom: 20px;
 }
 
-.footer-col-1 {
+.footer-col-3 {
   flex-basis: 30%;
 }
 
@@ -287,7 +308,7 @@ img:hover {
   text-align: center;
 }
 
-.footer-col-2 img {
+.footer-col-1 img {
   width: 180px;
   margin-bottom: 20px;
 }
@@ -337,7 +358,7 @@ ul {
 
 .page-btn span {
   display: inline-block;
-  border: 1px solid #ff523b;
+  border: 1px solid #F5911E;
   margin-left: 40px;
   width: 40px;
   height: 40px;
@@ -347,7 +368,7 @@ ul {
 }
 
 .page-btn span:hover {
-  background: #ff523b;
+  background: #F5911E;
   color: #fff;
 }
 
@@ -382,12 +403,12 @@ ul {
   padding-left: 10px;
   font-size: 20px;
   margin-right: 10px;
-  border: 1px solid #ff523b;
+  border: 1px solid #F5911E;
 }
 
 
 .single-products .fa {
-  color: #ff523b;
+  color: #F5911E;
   margin-left: 10px;
 }
 
@@ -470,7 +491,74 @@ ul {
 
 }
 
+/*********************************************************** FORM ************************************************************/
+form {
+  position: auto;
+  margin: auto;
+}
 
+input {
+  width: 250px;
+  margin: .5rem 0; 
+  padding: .2rem;
+}
+
+textarea {
+  width: 250px;
+  margin-top: .5rem;
+}
+
+.btn.account {
+  margin: 1rem;
+  padding: .5rem 5rem;
+  background: #34F3B3;
+}
+
+.btn.account:hover {
+  background: #BF2929;
+}
+
+.btn.sign-in {
+  margin: 1rem;
+  padding: .5rem 7rem;
+  float: left;
+}
+
+.btn.checkout {
+  background: #34F3B3;
+}
+
+.btn.checkout:hover {
+  background: #BF2929;
+}
+
+.social-icon {
+  padding: 0 .5rem;
+}
+
+.social-icon:hover {
+  color: #ff523b;
+}
+
+.links li:hover {
+  color: #ff523b;
+}
+
+.social-header {
+  padding-left: 1rem;
+}
+
+.links li:hover {
+  color: #ff523b;
+}
+
+.contact-link a {
+  margin-bottom: 100px !important;
+}
+
+.contact-link a:hover {
+  color: #ff523b;
+}
 
 
 
