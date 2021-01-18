@@ -464,6 +464,13 @@ ul {
     font-size: 26px;
     line-height: 32px;
   }
+  .logo.footer {
+    margin-right: auto;
+    margin-right: auto;
+  }
+  .logo {
+    width: 65%;
+  }
 
 }
 
@@ -560,6 +567,64 @@ textarea {
   color: #ff523b;
 }
 
-
+/*********************************************************** Mobile Responsive ************************************************************/
+/* @media only screen and (max-width: 700px){
+  logo {
+    width: 65%;
+  }
+}
+ */
 
 /*********************************************************** ID ************************************************************/
+
+#footer-nav {
+  flex: 1;
+  text-align: right;
+}
+/* 
+#footer-nav ul {
+  display: inherit;
+  list-style-type: none;
+}
+
+#footer-nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+#footer-nav li:hover {
+  color: #ff523b;
+}
+ */
+
+/* #footer-nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+}
+
+#footer-nav li {
+  float: left;
+}
+
+#footer-nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+#footer-nav li a:hover {
+  background-color: #ff523b;
+} */
+
+.footer-links {
+  display: inline;
+}
+
+.footer-links:hover a {
+  color: #ff523b;
+}
